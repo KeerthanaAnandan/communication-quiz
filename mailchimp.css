@@ -136,7 +136,7 @@ form label .asterisk {
     width: 300px !important;
     padding: 15px;
     border: none;
-    height: 20px;
+    height: 40px;
 
     background: white;
     color: #000;
@@ -170,5 +170,27 @@ form label .asterisk {
     color: #000000;
     font-size: 0.5em;
     text-align: center;
+  }
+  form #mce-success-response {
+    background: #000000;
+    padding: 25px;
+    text-align: center;
+    font-size: small;
+    color: #fff;
+    width: 300px;
+    transition: 1s;
+    animation: response 1s forwards;
+  }
+
+  form #mce-error-response {
+    background: #000000;
+    padding: 30px;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    width: 300px;
+    font-size: small;
+    transition: 1s;
+    animation: response 1s forwards;
   }
 }
