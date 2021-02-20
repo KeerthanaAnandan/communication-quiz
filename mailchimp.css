@@ -31,7 +31,7 @@ form label {
   font-weight: bold;
 }
 
-form .subscribe {
+form .button {
   display: flex;
   align-items: center;
   text-align: center;
@@ -46,7 +46,7 @@ form .subscribe {
   margin: 10px;
 }
 
-form .subscribe:hover {
+form .button:hover {
   background: #67156e;
   color: #151515;
   cursor: pointer;
