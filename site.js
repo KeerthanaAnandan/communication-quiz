@@ -94,7 +94,7 @@ window.onload = function () {
 function next(e) {
   // if the question is last then redirect to final page
   if (question_count == questions.length - 1) {
-    location.href = "end.html";
+    location.href = "mailchimpform.html";
   }
 
   let user_answer = document.querySelector(".option.active").innerHTML;
