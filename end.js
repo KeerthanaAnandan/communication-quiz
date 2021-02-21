@@ -155,9 +155,9 @@ msgme.className = "center-item";
 //document.querySelector(".msghere").innerHTML = mao;
 
 msgme.innerHTML = mao;
-document.querySelector(".usertype").value = typo;
+//document.querySelector(".usertype").value = typo;
 
-document.querySelector(".usertype").style.display = "none";
+//document.querySelector(".usertype").style.display = "none";
 
 //share buttons
 /* 
@@ -189,7 +189,7 @@ const whatsappBtn = document.querySelector(".whatsapp-btn");
 
 function init() {
   let postUrl = encodeURI(document.location.href);
-  let postTitle = encodeURI("Checkout what type of intagrammer I am ");
+  let postTitle = encodeURI("Checkout what type of communicator I am");
   // let postImg = encodeURI(pinterestImg.src);
 
   facebookBtn.setAttribute(
